@@ -1,0 +1,47 @@
+.section{
+	position:relative;
+	width: 100vw;
+	height: 100vh;
+	z-index: 0;
+}
+
+.section_viewport{
+	position: absolute;
+	width: 100vw;
+	height: 100vh;
+	overflow: hidden;
+}
+
+.section_background{
+	width: 1920px;
+	height: 1200px;
+    background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: absolute;
+}
+
+
+.section_info{
+	color: white;
+}
+
+.section_info_text{
+	background-color: rgba(81, 84, 89, 0.6);
+	text-align: justify;
+	padding: 10px;
+	width: 20vw;
+	min-width: 30px;
+	max-width: 400px;
+	overflow: hidden;
+	border-radius: 10px;
+	color: white;
+	margin-top: 10px;
+	box-shadow: 10px 10px 50px black;
+	display: none;
+	font-weight: 600;
+}
+
+.section_info_cross{
+	
+}
