@@ -20,11 +20,7 @@ $(document).ready(function(){
 	$("#section4_bg").css({
 		"backgroundImage" : S_Result + 'co_robimy.jpg")'
 	});
-	
-	$("#section5_bg").css({
-		"backgroundImage" : S_Result + 'nasze_osiagniecia.jpg")'
-	});
-	
+
 	$("#section6_bg").css({
 		"backgroundImage" : S_Result + 'rekrutacja.jpg")'
 	});

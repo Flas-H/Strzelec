@@ -1,6 +1,6 @@
 var position = -1;
 var previousPosition = -1;
-var sectionAmount = 4
+var sectionAmount = 3;
 
 var highlightedColor = "rgba(0, 0 , 0, 0.3)";
 var notHighlightedColor = "rgba(18, 130, 103, 0)";
@@ -26,7 +26,7 @@ function moveToSlide(e){
 		else position--;
 		
 		if(position > sectionAmount) position = 0;
-		else if(position < 0) position = 3;
+		else if(position < 0) position = sectionAmount;
 		
 		 $('html, body').animate({
 			scrollTop: $("#section" + position).offset().top

@@ -3,6 +3,7 @@ body{
 	padding: 0px;
 	margin: 0px;
 	font-family: 'Work Sans', sans-serif;
+	font-size: 1em;
 }
 
 
@@ -70,4 +71,14 @@ body{
 	font-size: 3vh;
 	top: -20vh;
 	position: absolute;
+}
+
+a:link{
+	text-decoration: none;
+	color: rgba(234, 234, 234, 0.8);
+}
+
+a:visited{
+	text-decoration: none;
+	color: rgba(234, 234, 234, 0.8);
 }

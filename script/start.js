@@ -21,5 +21,5 @@ $(document).ready(
 var scrolledTop = false;
 	
 $(window).on('beforeunload', function() {
-    $(window).scrollTop(0);
+    //$(window).scrollTop(0);
 });

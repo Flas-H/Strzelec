@@ -5,5 +5,7 @@ function loaderFadeOut(){
 		"opacity" : "0"
 	}, 500);
 	
-	$(".loader").remove();
+	setTimeout(function(){
+		$(".loader").remove();
+	}, 500);
 }
