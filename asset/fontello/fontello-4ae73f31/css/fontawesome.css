@@ -1,11 +1,11 @@
 @font-face {
   font-family: 'fontawesome';
-  src: url('../font/fontawesome.eot?79610989');
-  src: url('../font/fontawesome.eot?79610989#iefix') format('embedded-opentype'),
-       url('../font/fontawesome.woff2?79610989') format('woff2'),
-       url('../font/fontawesome.woff?79610989') format('woff'),
-       url('../font/fontawesome.ttf?79610989') format('truetype'),
-       url('../font/fontawesome.svg?79610989#fontawesome') format('svg');
+  src: url('../font/fontawesome.eot?64837');
+  src: url('../font/fontawesome.eot?64837#iefix') format('embedded-opentype'),
+       url('../font/fontawesome.woff2?64837') format('woff2'),
+       url('../font/fontawesome.woff?64837') format('woff'),
+       url('../font/fontawesome.ttf?64837') format('truetype'),
+       url('../font/fontawesome.svg?64837#fontawesome') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -15,7 +15,7 @@
 @media screen and (-webkit-min-device-pixel-ratio:0) {
   @font-face {
     font-family: 'fontawesome';
-    src: url('../font/fontawesome.svg?79610989#fontawesome') format('svg');
+    src: url('../font/fontawesome.svg?64837#fontawesome') format('svg');
   }
 }
 */
@@ -55,11 +55,7 @@
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
  
-.icon-plus:before { content: '\e800'; } /* '' */
-.icon-cancel-outline:before { content: '\e801'; } /* '' */
-.icon-move-outline:before { content: '\e802'; } /* '' */
-.icon-move:before { content: '\e803'; } /* '' */
-.icon-resize-small-alt:before { content: '\e804'; } /* '' */
+.icon-spin1:before { content: '\e830'; } /* '' */
 .icon-mail-alt:before { content: '\f0e0'; } /* '' */
 .icon-youtube-play:before { content: '\f16a'; } /* '' */
 .icon-instagram:before { content: '\f16d'; } /* '' */

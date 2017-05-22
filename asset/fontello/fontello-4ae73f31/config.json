@@ -7,36 +7,6 @@
   "ascent": 850,
   "glyphs": [
     {
-      "uid": "70370693ada58ef0a60fa0984fe8d52a",
-      "css": "plus",
-      "code": 59392,
-      "src": "entypo"
-    },
-    {
-      "uid": "24aba8757d4a7b49568c98a577a85df3",
-      "css": "cancel-outline",
-      "code": 59393,
-      "src": "typicons"
-    },
-    {
-      "uid": "2b9bcf0829f99d9bdaa653b0a8cf41f5",
-      "css": "move-outline",
-      "code": 59394,
-      "src": "typicons"
-    },
-    {
-      "uid": "fhkechw94uv9ydw6tukba3ka2hhoif4n",
-      "css": "move",
-      "code": 59395,
-      "src": "typicons"
-    },
-    {
-      "uid": "8596dc69a5e7e0297e8926b6e2563509",
-      "css": "resize-small-alt",
-      "code": 59396,
-      "src": "iconic"
-    },
-    {
       "uid": "6cc7af3e5b55720bcb6ef68372ce24be",
       "css": "facebook-official",
       "code": 62000,
@@ -59,6 +29,12 @@
       "css": "mail-alt",
       "code": 61664,
       "src": "fontawesome"
+    },
+    {
+      "uid": "72109d2fb3088d0e66ea6a9204297651",
+      "css": "spin1",
+      "code": 59440,
+      "src": "fontelico"
     }
   ]
 }

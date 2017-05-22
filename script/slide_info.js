@@ -3,7 +3,8 @@ var rullerTime = 200;
 var buttonTime = 200;
 var textTime = 400;
 var slideInOffset = 0;
-var rotateTime = 700;
+
+var summarySlideOutTime = rullerTime - slideInOffset + textTime + rullerTime + buttonTime * 2 + rullerTime;
 
 $(document).ready(function(event){
 	
@@ -17,7 +18,7 @@ $(document).ready(function(event){
 	var direction;
 	var previousDirection = null;
 	
-	$(".info_icon").click(function(){
+	$(".info_icon").mouseenter(function(){
 		
 		var time = 0;
 		previousText = text;
@@ -25,6 +26,7 @@ $(document).ready(function(event){
 		previousRuller = ruller;
 		previousDirection = direction;
 		
+
 		if(previousText != null){
 			
 			slideInRuller(previousRuller);
@@ -64,23 +66,24 @@ $(document).ready(function(event){
 	
 	$(".info_icon").hover(function(event){
 		
-		if(!$("*").is(":animated")){
-			//console.log($(this).attr("id"))	;
-			$(this).css({
-				"transform" : "rotate(135deg)",
-				"transition" : rotateTime / 1000 + "s"
-			});
-		}
+		//console.log($(this).attr("id"))	;
+		$(this).css({
+			"transform" : "rotate(-359deg)",
+			"transition" : summarySlideOutTime / 1000 + "s"
+		});
+		
 	}, function(event){
 		
 		$(this).css({
 			"transform" : "rotate(0deg)",
-			"transition" : rotateTime / 1000 + "s"
+			"transition" : summarySlideOutTime / 1000 + "s"
 		});
 		
 	})
 	
 });
+
+
 
 function slideOutText(object, direction){
 	
@@ -172,7 +175,7 @@ function slideInRuller(object){
 
 function crossGlintFadeIn(section){
 	
-	var object = $(".icon-plus[data-section = \"" + section + "\"");
+	var object = $(".icon-spin1[data-section = \"" + section + "\"");
 	var standardFontSize = "3vw";
 	
 	var animationStepTime = 1000;
@@ -187,7 +190,7 @@ function crossGlintFadeIn(section){
 
 function crossGlintFadeOut(section){
 	
-	var object = $(".icon-plus[data-section = \"" + section + "\"");
+	var object = $(".icon-spin1[data-section = \"" + section + "\"");
 	var maxFontSize = "50vw";
 	
 	object.css({
